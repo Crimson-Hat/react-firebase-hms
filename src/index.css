@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+button:focus {
+  outline: 0;
+}
+.form-control {
+  font-size: 0.8rem;
+}
+
+.MuiInputBase-input {
+  padding: "0px 10px";
+}
+
+.custom-select {
+  font-size: 0.8rem;
+}
