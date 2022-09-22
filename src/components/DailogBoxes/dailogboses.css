@@ -1,0 +1,27 @@
+.dialogBox .header {
+  height: 40px;
+}
+.dialogBox .title {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.dialogBox .header .title h5 {
+  line-height: 40px;
+  font-size: 14px;
+}
+.dialogBox .btn {
+  border-radius: 10px;
+  text-align: center;
+  font-size: 12px;
+}
+.dialogBox .header .title .btn {
+  height: 30px;
+  font-size: 12px;
+  padding: 0px 20px;
+  border-radius: 20px;
+}
+
+.dialogBox .children {
+  font-size: 12px;
+}

@@ -1,0 +1,18 @@
+.confirmDialogBox .title {
+  width: "200px";
+}
+
+.confirmDialogBox .fa-spinner {
+  position: relative;
+  top: 0%;
+  left: 40%;
+}
+.confirmDialogBox .des {
+  font-size: 12px;
+}
+.confirmDialogBox .btn {
+  border-radius: 10px;
+  padding: 5px 10px;
+  font-size: 10px;
+  margin-right: 10px;
+}
