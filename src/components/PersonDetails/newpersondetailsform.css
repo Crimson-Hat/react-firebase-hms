@@ -1,0 +1,74 @@
+.form-control:valid {
+  background-color: white !important;
+}
+.first_section label {
+  font-size: 12px;
+}
+
+.second_section .profileimage {
+  border: 5px solid rgb(218, 218, 218);
+  border-radius: 10px;
+  height: 200px;
+  width: 200px;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.second_section .profileimage .fa-user {
+  color: gray;
+}
+.savebtn {
+  margin-top: 10px;
+  margin-left: 10px;
+  border-radius: 20px;
+  padding: 5px 20px;
+  font-size: 12px;
+}
+.btn_section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.second_section label {
+  color: black;
+  font-size: 12px;
+
+  border: 1px solid rgb(197, 197, 197);
+  border-radius: 20px;
+  padding: 5px 20px;
+  cursor: pointer;
+  height: 35px;
+
+  text-align: center;
+}
+.second_section label:hover {
+  background-color: rgb(197, 197, 197);
+}
+.second_section .removebutton:hover {
+  background-color: rgb(197, 197, 197);
+}
+
+.second_section .removebutton {
+  background-color: white;
+  border: 1px solid rgb(197, 197, 197);
+  border-radius: 20px;
+  font-size: 12px;
+
+  padding: 5px 20px;
+}
+
+.second_section input {
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.second_section .profileimage .netimage {
+  height: 200px;
+  width: 200px;
+  border: 5px solid rgb(218, 218, 218);
+  border-radius: 10px;
+}
