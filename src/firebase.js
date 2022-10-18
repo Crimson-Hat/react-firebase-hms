@@ -1,14 +1,23 @@
 import firebase from "firebase";
 
-const config = {
-    apiKey: "AIzaSyD2TIX5-Mog2oMjGwFzfHVe74jZ3FH2fzE",
-    authDomain: "minchospital.firebaseapp.com",
-    projectId: "minchospital",
-    storageBucket: "minchospital.appspot.com",
-    messagingSenderId: "837913718448",
-    appId: "1:837913718448:web:33f7717aebc42e382e9575",
-    measurementId: "G-52RS16T5VZ"
+const firebaseConfig = {
+
+  apiKey: "AIzaSyDGWCg8jJ43WdaaYzwNhJVpSKBUGAm3Llc",
+
+  authDomain: "spital-c588d.firebaseapp.com",
+
+  projectId: "spital-c588d",
+
+  storageBucket: "spital-c588d.appspot.com",
+
+  messagingSenderId: "149322227960",
+
+  appId: "1:149322227960:web:dd489ebcb6aeb24d135b0d",
+
+  measurementId: "G-5JXQ2ZP172"
+
 };
+
 
 // const db = firebaseApp.firestore();
 // const storage = firebaseApp.storage();
